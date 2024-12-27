@@ -1,0 +1,4 @@
+@mixin towColmun($column-gap: 7.4rem) {
+  grid-template-columns: repeat(2, 1fr);
+  column-gap: $column-gap;
+}

@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&family=Raleway:wght@400;500;600;700&display=swap"
+      rel="stylesheet" />
+    <link rel="stylesheet" href="./styles/style.css" />
+    <title>صفحة عبداالله</title>
+  </head>
+  <body>
+    <div class="container">
+      <video class="video__loop" autoplay loop muted>
+        <source src="./video-loop.mp4" type="video/mp4" />
+      </video>
+
+      <header class="header">
+        <label class="burger-menu" for="menu">
+          <div class="burger-menu__bar"></div>
+          <div class="burger-menu__bar"></div>
+          <div class="burger-menu__bar"></div>
+        </label>
+        <input id="menu" class="burger-menu__checkbox" type="checkbox" />
+
+        <nav class="navigation">
+          <ul class="navigation__list">
+            <li><a href="#bio" class="navigation__link navigation__bio">Bio</a></li>
+            <li><a href="#skills" class="navigation__link navigation__skills">Skills</a></li>
+            <li><a href="#media" class="navigation__link navigation__media">Wedia</a></li>
+            <li><a href="#projects" class="navigation__link navigation__projects">Project</a></li>
+            <li><a href="#clients" class="navigation__link navigation__clients">My Clients</a></li>
+            <li><a href="#contact" class="navigation__link navigation__contact">Contact</a></li>
+          </ul>
+        </nav>
+
+        <div class="toggle">
+          <h3 class="toggle__title">Switch Theme</h3>
+          <input type="checkbox" name="toggle checkbox" id="toggle" class="toggle__checkbox" />
+          <label for="toggle" class="toggle__lable"></label>
+        </div>
+      </header>
+
+      <section id="bio" class="bio section">
+        <div class="bio__data">
+          <h1 class="bio__heading">Hi There, I'am Passionate Softwear Eng</h1>
+          <p class="bio__objectives">
+            My Name is <span class="bio__name">Abdulla</span>, Business director of Web, Js Css and
+            of course HTML/>
+            <a
+              href="https://www.linkedin.com/in/abdullahmoalshehri/"
+              class="bio__linkedin"
+              target="_blank"
+              >LinkedIn</a
+            >
+            Creative and alot Lorem ipsum dolor sit amet consectetur adipisicing elit.
+          </p>
+          <a href="#contact" class="bio__links say-hi-link">Say Hi</a>
+          <a href="./mohamedAbusreaResume.pdf" class="bio__links find-out-link" target="_blank">
+            Download CV <span class="bio__down-arrow">↓</span></a
+          >
+        </div>
+        <div class="bio__pic-content">
+          <img class="bio__pic" src="./images/personal-pic.png" alt="image of Mohammed abo Sarea" />
+        </div>
+      </section>
+
+      <section id="skills" class="skills section section--with-bg">
+        <h2 class="h2-heading">Skills</h2>
+        <ul class="skills__list">
+          <li class="skills__item">
+            <h2 class="skills__title">HTML</h2>
+            <span class="skills__experiance">8 years</span>
+          </li>
+          <li class="skills__item">
+            <h2 class="skills__title">CSS</h2>
+            <span class="skills__experiance">8 years</span>
+          </li>
+          <li class="skills__item">
+            <h2 class="skills__title">JavaScript</h2>
+            <span class="skills__experiance">8 years</span>
+          </li>
+          <li class="skills__item">
+            <h2 class="skills__title">React</h2>
+            <span class="skills__experiance">4 years</span>
+          </li>
+          <li class="skills__item">
+            <h2 class="skills__title">Redux</h2>
+            <span class="skills__experiance">3 years</span>
+          </li>
+          <li class="skills__item">
+            <h2 class="skills__title">React testing library</h2>
+            <span class="skills__experiance">1 years</span>
+          </li>
+        </ul>
+      </section>
+
+      <section id="media" class="media section">
+        <video class="media__video" poster="./images/thumbnail.jpg" controls>
+          <source src="./video.mp4" type="video/mp4" />
+          <!-- <source src="./video.ogg" type="video/ogg"/> -->
+          المتصفح لايدعم عرض الفيديو
+        </video>
+      </section>
+
+      <section id="projects" class="projects section">
+        <h2 class="h2-heading">My Feature <br />Projects</h2>
+
+        <div class="project__main">
+          <img class="project__img" src="./images/project-1.jpg" alt="" />
+
+          <div class="project__data">
+            <h3 class="h3--heading">Quran Tap <br />Extention</h3>
+            <p class="project__discreption">
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magnam incidunt earum ut,
+              harum esse reiciendis consectetur quod quam id minus. Facilis iure dolore doloremque
+              voluptates numquam eaque id ullam laboriosam.
+            </p>
+
+            <a href="https://www.w3schools.com/tags/tag_a.asp" class="project__link" target="_blank"
+              >Chrome link</a
+            >
+            <span>-</span>
+            <a href="https://www.w3schools.com/tags/tag_a.asp" class="project__link" target="_blank"
+              >Edge link</a
+            >
+          </div>
+          <div class="project__data">
+            <h3 class="h3--heading">Quran Radio</h3>
+            <p class="project__discreption">
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magnam incidunt earum ut,
+              harum esse reiciendis consectetur quod quam id minus. Facilis iure dolore doloremque
+              voluptates numquam eaque id ullam laboriosam.
+            </p>
+            <a href="https://www.w3schools.com/tags/tag_a.asp" class="project__link" target="_blank"
+              >Chrome link</a
+            >
+            <span>-</span>
+            <a href="https://www.w3schools.com/tags/tag_a.asp" class="project__link" target="_blank"
+              >Edge link</a
+            >
+          </div>
+          <img class="project__img" src="./images/project-2.jpg" alt="" />
+        </div>
+      </section>
+
+      <section id="clients" class="clients section section--with-bg">
+        <h2 class="h2-heading">
+          What My<br />
+          Clients Says
+        </h2>
+        <div class="clients__openions">
+          <div class="clients__wrapper">
+            <p class="clients__openion">
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Pariatur harum molestias
+              corrupti delectus non libero expedita minus odit repudiandae labore, voluptates
+              praesentium adipisci. Cupiditate corporis quae animi, quibusdam aperiam expedita.
+            </p>
+            <p class="clients__openion">
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Reiciendis velit nisi
+              quisquam earum. Saepe pariatur accusamus nulla quia, porro nemo mollitia optio
+              eligendi voluptas quasi asperiores est, quibusdam qui totam?
+            </p>
+            <p class="clients__openion">
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Adipisci cupiditate porro
+              esse nam iure vitae. Doloremque sed odio adipisci in nemo dicta recusandae tempora
+              voluptate nam! Perferendis dolor sit enim.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <section id="contact" class="contact section">
+        <div>
+          <p class="contact__descreption">
+            Contact me on social media or direct contact , throgh the folloing icons of social media
+            or direct contact again:
+          </p>
+          <a class="contact__email" href="mailto:a.walidii@gmail.com">a.walidii@gmail.com</a>
+          <div class="contact__socials">
+            <a href="#" class="contact__social">
+              <img src="./images/brand/facebook.svg" alt="icon of facebook"
+            /></a>
+            <a href="#" class="contact__social">
+              <img src="./images/brand/instagram.svg" alt="icon of instagram" />
+            </a>
+            <a href="#" class="contact__social">
+              <img src="./images/brand/LinkedIn.svg" alt="icon of linked in" />
+            </a>
+            <a href="#" class="contact__social">
+              <img src="./images/brand/twitter.svg" alt="icon of twitter" />
+            </a>
+            <a href="#" class="contact__social">
+              <img src="./images/brand/youtube.svg" alt="icon of youtube" />
+            </a>
+            <a href="#" class="contact__social">
+              <img src="./images/brand/github.svg" alt="icon of github" />
+            </a>
+          </div>
+        </div>
+        <div class="contact__formContact">
+          <h2 class="h2-heading">Let's Work<br />Together!</h2>
+          <form action="results.html">
+            <div class="contact__inputs">
+              <input
+                class="contact__input"
+                type="text"
+                placeholder="Full Name"
+                name="fullName"
+                required />
+              <input
+                class="contact__input"
+                type="tel"
+                placeholder="Phone No. Ex:966551234567"
+                name="mobile"
+                pattern="^[1-9]{1}[0-9]{3,14}$"
+                required />
+            </div>
+            <textarea
+              class="contact__input contact__input__textarea"
+              name="description"
+              id="description"
+              rows="1"
+              placeholder="Your Message"
+              required></textarea>
+            <input class="contact__button" type="submit" value="Send Message" />
+          </form>
+        </div>
+      </section>
+
+      <footer class="footer">© 2022 by Mohamed Abusrea</footer>
+    </div>
+  </body>
+</html>
