@@ -28,13 +28,17 @@ Here’s a simplified view of the project directory:
 ```
 ├── index.html # Main HTML file
 ├── styles/ # Contains all the SASS and CSS files
-│ ├── main.scss # Main SASS file
-│ ├── partials/ # SASS partials (e.g., _variables.scss, _mixins.scss)
-│ └── main.css # Compiled CSS file
+│   ├── main.scss # Main SASS file
+│   ├── partials/ # SASS partials (e.g., _variables.scss, _mixins.scss)
+│   └── main.css # Compiled CSS file
 ├── images/ # Images used in the project
+├── components/ # Reusable components
+├── assets/ # Static assets (e.g., fonts, icons)
+├── screenshots/ # Project screenshots
+├── video-loop.mp4 # Looping video
+├── video.mp4 # Video file
 └── README.md # This file
 ```
-
 ---
 
 ## 🖼️ Screenshots  
