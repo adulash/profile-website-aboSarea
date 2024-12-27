@@ -41,10 +41,10 @@ Here’s a simplified view of the project directory:
 Include screenshots of your project here to give readers a visual preview! For example:  
 
 1. **Home Page**  
-   *(Insert screenshot here)*  
+   ![home Page](https://raw.githubusercontent.com/adulash/profile-website-aboSarea/refs/heads/main/screenshots/Website%20main%20page%20screenshot.png) 
 
 2. **Responsive Design**  
-   *(Insert screenshot here)*  
+   ![responsive desing](https://raw.githubusercontent.com/adulash/profile-website-aboSarea/refs/heads/main/screenshots/Mobile%20Responsive%20screenshot.png)
 
 ---
 
