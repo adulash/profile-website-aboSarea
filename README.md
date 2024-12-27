@@ -38,7 +38,6 @@ Here’s a simplified view of the project directory:
 ---
 
 ## 🖼️ Screenshots  
-Include screenshots of your project here to give readers a visual preview! For example:  
 
 1. **Home Page**  
    ![home Page](https://raw.githubusercontent.com/adulash/profile-website-aboSarea/refs/heads/main/screenshots/Website%20main%20page%20screenshot.png) 
